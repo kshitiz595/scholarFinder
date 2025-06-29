@@ -64,5 +64,5 @@ for script in buddy4u_com.py fastweb_com.py scholarships_com.py; do
   python "WebScraping/$script"
 done
 
-#IMPORTANT : WRITE ALL THE COMMANDS IN SEPARATE TERMINALS...
+#IMPORTANT : WRITE ALL THE COMMANDS FOR FRONTEND , BACKEND AND SCRAPING IN SEPRATE TERMINALS...
 
