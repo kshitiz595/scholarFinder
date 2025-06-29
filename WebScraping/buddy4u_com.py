@@ -91,7 +91,7 @@ driver.quit()
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-uri = "mongodb+srv://user123:1234@scholarshipfinder.juuzsrz.mongodb.net/?retryWrites=true&w=majority&appName=scholarshipfinder"
+uri = "mongodb+srv://kshitizrai1065:425952722@scholarshipfinder.4rgblvl.mongodb.net/?retryWrites=true&w=majority&appName=scholarshipfinder"
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))

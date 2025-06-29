@@ -19,7 +19,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 # ---------------------------------------------
 MONGO_URI     = os.environ.get(
     "MONGO_URI",
-    "mongodb+srv://user123:1234@scholarshipfinder.juuzsrz.mongodb.net/"
+    "mongodb+srv://kshitizrai1065:425952722@scholarshipfinder.4rgblvl.mongodb.net/"
     "?retryWrites=true&w=majority&appName=scholarshipfinder"
 )
 DB_NAME       = os.environ.get("DB_NAME", "scholarship_db")
