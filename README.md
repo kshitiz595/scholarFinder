@@ -15,7 +15,6 @@ A web application that helps students automatically discover scholarships that m
 - 🤖 Matching algorithm and NLP powered by Python (TextBlob & VADER)
 
 ---
-
 ## 🛠 Tech Stack
 
 **Frontend:**
@@ -37,8 +36,8 @@ A web application that helps students automatically discover scholarships that m
 ```bash
 🖥️ Clone The Repository
 
-git clone https://github.com/kshitiz595/scholarshipfinder
-cd Scholarship-Finder
+git clone https://github.com/kshitiz595/scholarFinder.git
+cd SCHOLARSHIP-FINDER
 
 📲 Frontend (React.js + TailwindCSS)
 
@@ -51,3 +50,19 @@ npm run dev
 cd backend
 npm install
 npm start
+
+🕸 Scraping 
+
+pip install selenium beautifulsoup4 textblob vaderSentiment nltk
+pip install pymango
+pip install python-dateutil
+python -m nltk.downloader vader_lexicon
+python -m textblob.download_corpora
+
+for script in buddy4u_com.py fastweb_com.py scholarships_com.py; do
+  echo "→ Running $script..."
+  python "WebScraping/$script"
+done
+
+#IMPORTANT : WRITE ALL THE COMMANDS IN SEPARATE TERMINALS...
+
