@@ -37,7 +37,7 @@ A web application that helps students automatically discover scholarships that m
 ```bash
 🖥️ Clone The Repository
 
-git clone https://github.com/jarchit27/Scholarship-Finder
+git clone https://github.com/kshitiz595/scholarshipfinder
 cd Scholarship-Finder
 
 📲 Frontend (React.js + TailwindCSS)
